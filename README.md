@@ -55,8 +55,8 @@ This project demonstrates **Apache Camel integration with Kafka** using a simple
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ApacheCamelWithKafka.git
-cd ApacheCamelWithKafka
+git clone https://github.com/Sakshi0704/Apache_Camel_V1.git
+cd Apache_Camel_V1
 ```
 
 ### 2. Start Kafka and Zookeeper via Docker Compose
