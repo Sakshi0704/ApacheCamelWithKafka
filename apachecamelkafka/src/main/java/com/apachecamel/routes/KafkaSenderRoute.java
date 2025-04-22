@@ -10,6 +10,6 @@ public class KafkaSenderRoute extends RouteBuilder {
     public void configure() throws Exception {
         from("timer://test-kafka?period=1000")
                 .setBody(simple("Send the message to consumer"))
-                .to("kafka:topicNameOne");
+                .to("kafka:topicNameOne?brokers=localhost:9092"); // topic name and broker
     }
 }

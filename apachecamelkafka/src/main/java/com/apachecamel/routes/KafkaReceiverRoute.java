@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 public class KafkaReceiverRoute extends RouteBuilder {
     @Override
     public void configure() throws Exception {
-        from("kafka:topicNameOne")
-                .log("${body}");
+        from("kafka:topicNameOne?brokers=localhost:9092&groupId=my-group") // topic, broker, consumer groupId
+                .log(">> Received from Kafka: ${body}");
     }
 
 }
