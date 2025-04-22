@@ -1,5 +1,5 @@
 
-# Apache Camel with Kafka Integration
+## Kafka and Apache Camel Integration with Docker Compose
 
 This project demonstrates **Apache Camel integration with Kafka** using a simple producer-consumer setup in a Spring Boot application. It helps understand how to work with **Kafka topics**, **producers**, **consumers**, and how Camel simplifies the message routing.
 
